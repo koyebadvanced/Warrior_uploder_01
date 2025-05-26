@@ -45,10 +45,10 @@ pwimg = "https://graph.org/file/8add8d382169e326f67e0-3bf38f92e52955e977.jpg"
 cpimg = "https://graph.org/file/5ed50675df0faf833efef-e102210eb72c1d5a17.jpg"
 zipimg = "https://i.postimg.cc/C5T2SN20/photo-2025-04-02-18-19-12.jpg"
 
-credit =("ROWDY") 
-OWNER = int(os.environ.get("OWNER",7003164707))
+credit =("WARRIOR") 
+OWNER = int(os.environ.get("OWNER",6705556585))
 try: 
-    ADMINS=[7003164707] 
+    ADMINS=[6764661699] 
     for x in (os.environ.get("ADMINS", "7003164707").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
@@ -135,9 +135,9 @@ import random
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📞 Contact " ,url=f"https://t.me/ROWDYOFFICIALBOT") ],
+                    InlineKeyboardButton("📞 Contact " ,url=f"https://t.me/staystrongbros") ],
                     [
-                    InlineKeyboardButton("🔔 Update channel " ,url="https://t.me/+7dyGkwBfH99iODU9") ],                              
+                    InlineKeyboardButton("🔔 Update channel " ,url="https://t.me/staystrongbros") ],                              
                 ],           
 
       )
@@ -179,7 +179,7 @@ async def start_command(bot: Client, message: Message):
         "➽ **/y2t - Create txt of yt playlist**\n\n"
         "➽ **/stop working process Command**\n\n"
         "➽ **/Rowdy Command Use To Download  Data From TXT File 🗃️** \n\n"
-        "**╭────────◆◇◆────────╮\n⚡ MADE BY : [ᏒᎾᏯᎠᎽ 🦁](t.me/ROWDYOFFICIALBOT)\n╰────────◆◇◆────────╯**\n\n"
+        "**╭────────◆◇◆────────╮\n⚡ MADE BY : [𝐖𝐀𝐑𝐑𝐈𝐎𝐑 👨‍💻 ](t.me/staystrongbros)\n╰────────◆◇◆────────╯**\n\n"
     
       )
 
@@ -228,9 +228,9 @@ async def start_command(bot: Client, message: Message):
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 BUTTONS = InlineKeyboardMarkup([
-    [InlineKeyboardButton("📞 Contact ", url="https://t.me/ROWDYOFFICIALBOT")],
+    [InlineKeyboardButton("📞 Contact ", url="https://t.me/staystrongbros")],
    
-    [InlineKeyboardButton("🥷 Owner ", url="https://t.me/ROWDYOFFICIALBOT")],
+    [InlineKeyboardButton("🥷 Owner ", url="https://t.me/staystrongbros")],
 ])
 
 #=================== TELEGRAM ID INFORMATION =============
@@ -258,7 +258,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 async def id_command(client, message: Message):
     chat_id = message.chat.id
     keyboard = InlineKeyboardMarkup(
-        [[InlineKeyboardButton("📞 Contact", url="https://t.me/OWDYOFFICIALBOT")]]
+        [[InlineKeyboardButton("📞 Contact", url="https://t.me/staystrongbros")]]
     )
     await message.reply_text(
         f"**CHANNEL ID :** `/sudo add {chat_id}`",
